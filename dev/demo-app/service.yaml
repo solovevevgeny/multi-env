@@ -8,7 +8,7 @@ metadata:
     helm.sh/chart: charts-0.1.0
     app.kubernetes.io/name: charts
     app.kubernetes.io/instance: release-name
-    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/version: "1.17.0"
     app.kubernetes.io/managed-by: Helm
 spec:
   type: ClusterIP
