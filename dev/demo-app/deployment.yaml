@@ -28,7 +28,7 @@ spec:
       serviceAccountName: release-name-charts
       containers:
         - name: charts
-          image: "nginx:1.16.0"
+          image: "nginx:1.21"
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
